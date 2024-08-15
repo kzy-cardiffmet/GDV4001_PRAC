@@ -1,0 +1,13 @@
+#version 450 core
+
+layout(binding = 0) uniform sampler2D ColTexture;
+
+out vec4 FragColor; // Color that will be used for the fragment
+
+//////////////////////////////////////////////////////////////////
+// main()
+//////////////////////////////////////////////////////////////////
+void main()
+{
+ 	FragColor = vec4(1.0, 0.5, 0.1, 1.0); // Orange
+}

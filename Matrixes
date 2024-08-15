@@ -1,0 +1,12 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+    clscr();
+    int mat1[2][2], mat2[2][2], mat3[2][2], sum=0, i, j, k;
+    cout<<"Enter First Matrix Element (2*2):";
+
+}
+
+
